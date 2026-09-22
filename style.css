@@ -466,13 +466,13 @@
     color: var(--ink-faint);
     margin-bottom: 10px;
   }
-  .story-article h1{
-    font-family: var(--serif);
-    font-weight: 500;
-    font-size: clamp(1.7rem, 3.2vw, 2.3rem);
-    margin: 0 0 26px;
-    max-width: 24ch;
-  }
+.story-article h1{
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3.2vw, 2.3rem);
+  margin: 0 0 26px;
+  max-width: 100%;
+}
   .story-article .story-photo{
     aspect-ratio: 16 / 9;
     margin-bottom: 30px;
