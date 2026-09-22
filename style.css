@@ -262,14 +262,14 @@
   .article-body h4:first-of-type{ margin-top: 0; }
   .article-body p{
     margin: 0 0 14px;
-    max-width: var(--measure);
+    max-width: 100% /*var(--measure);*/
     color: var(--ink-soft);
     font-size: 0.96rem;
   }
   .article-body ul{
     margin: 0 0 14px;
     padding-left: 20px;
-    max-width: var(--measure);
+    max-width: 100% /*var(--measure);*/
     color: var(--ink-soft);
     font-size: 0.96rem;
   }
@@ -281,7 +281,7 @@
     border-left: 3px solid var(--signal);
     font-size: 0.9rem;
     color: var(--ink-soft);
-    max-width: var(--measure);
+    max-width: 100% /*var(--measure);*/
   }
 
   /* ---------- research focus ---------- */
