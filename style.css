@@ -483,3 +483,75 @@
   @media (max-width: 760px){
     .story-grid{ grid-template-columns: 1fr; }
   }
+
+
+
+/* ---------- comment section (append to style.css) ---------- */
+.comments-note{
+  max-width: var(--measure);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin: -8px 0 24px;
+}
+#comments{ max-width: var(--measure); }
+
+.c-form label{
+  display: block;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+.c-form input:not(.c-trap),
+.c-form textarea{
+  display: block;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: #f5f6f1;
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  resize: vertical;
+}
+.c-form input:focus-visible,
+.c-form textarea:focus-visible{ border-color: var(--signal); }
+.c-trap{ position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+.c-actions{ display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.c-form button{
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: #fff;
+  background: var(--teal);
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.c-form button:hover{ background: var(--signal); }
+.c-form button:disabled{ opacity: 0.6; cursor: default; }
+.c-status{ font-size: 0.88rem; color: var(--ink-faint); }
+
+.c-list{ margin-top: 36px; }
+.c-item{ padding: 18px 0; border-top: 1px solid var(--rule); }
+.c-head{ display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+.c-name{ font-family: var(--serif); font-weight: 500; font-size: 1rem; }
+.c-date{ font-family: var(--mono); font-size: 0.74rem; color: var(--ink-faint); }
+.c-text{
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.c-reply{
+  margin: 14px 0 0 18px;
+  padding: 12px 16px;
+  background: var(--panel);
+  border-left: 3px solid var(--signal);
+}
+.c-reply-by{ display: block; font-size: 0.85rem; color: var(--teal); margin-bottom: 4px; }
+.c-empty{ color: var(--ink-faint); font-size: 0.95rem; }
+
