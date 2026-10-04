@@ -2,8 +2,8 @@
    Put <div id="comments"></div> on a page, then load this file. */
 (function () {
   // ---- 1. Fill these two in (Supabase -> Project Settings -> API) ----
-  var SUPABASE_URL = 'https://YOUR-PROJECT.supabase.co';
-  var SUPABASE_KEY = 'YOUR_ANON_OR_PUBLISHABLE_KEY';
+  var SUPABASE_URL = 'https://atijlqexedzlwdlunbpf.supabase.co';
+  var SUPABASE_KEY = 'sb_publishable_yH9n2CMjSQRRoDwW-XCzBA_N3m2NK5p';
   var OWNER_NAME   = 'Totok';
   // --------------------------------------------------------------------
 
